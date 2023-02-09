@@ -1,12 +1,12 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Card, Props } from '../src/components/surfaces/Card';
+import { Paper, Props } from '../src/components/surfaces/Paper';
 
 import { Typography } from '../src/components/data-display/Typography';
 
 const meta: Meta = {
-  title: 'Surfaces/Card',
-  component: Card,
+  title: 'Surfaces/Paper',
+  component: Paper,
   argTypes: {
     padding: { control: { type: 'range', min: 0, max: 10, step: 1 } },
   },
@@ -15,7 +15,7 @@ const meta: Meta = {
 export default meta;
 
 const Template: Story<Props> = args => (
-  <Card {...args}>
+  <Paper {...args}>
     <Typography variant="h4">Example H1</Typography>
     <Typography variant="subtitle1">Subtitle 1</Typography>
     <Typography variant="body1">
@@ -29,10 +29,10 @@ const Template: Story<Props> = args => (
       Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
       sit amet.
     </Typography>
-  </Card>
+  </Paper>
 );
 
-export const DefaultCard = Template.bind({});
+export const DefaultPaper = Template.bind({});
 
 /*DefaultCard.args = {
   children: 'Contained Button',

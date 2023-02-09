@@ -1,9 +1,9 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { AdessoLogo, Props } from '../src/components/AdessoLogo';
+import { AdessoLogo, Props } from '../src/components/data-display/AdessoLogo';
 
 const meta: Meta = {
-  title: 'AdessoLogo',
+  title: 'Data Display/AdessoLogo',
   component: AdessoLogo,
   argTypes: {
     fill: { control: { type: 'color', presetColors: ['red'] } },

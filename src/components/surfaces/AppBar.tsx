@@ -5,7 +5,7 @@ import {
 } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 
-import { theme } from '../theme/theme';
+import { theme } from '../../theme/theme';
 
 export interface Props extends MuiAppBarProps {
   /**The content of the component. */
@@ -23,7 +23,7 @@ export const AppBar = ({ children, padding, variant, ...props }: Props) => {
       <MuiAppBar
         {...props}
         variant={variant ? variant : 'elevation'}
-        style={{ padding: padding || 5 }}
+        style={{ padding: padding || 0 }}
       >
         {children}
       </MuiAppBar>

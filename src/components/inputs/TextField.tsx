@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 
-import { colorPalette } from '../theme/colorPalette';
+import { colorPalette } from '../../theme/colorPalette';
 
 import { styled, alpha } from '@mui/material/styles';
 

@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 import { Card as MuiCard, CardProps as MuiCardProps } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 
-import { theme } from '../theme/theme';
+import { theme } from '../../theme/theme';
 
 export interface Props extends MuiCardProps {
   /*The content of the component.*/

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { TextField, Props } from '../src/components/TextField';
+import { TextField, Props } from '../src/components/inputs/TextField';
 
 import SearchIcon from '@mui/icons-material/Search';
 import Clear from '@mui/icons-material/Clear';
 
 const meta: Meta = {
-  title: 'TextField',
+  title: 'Inputs/TextField',
   component: TextField,
 };
 

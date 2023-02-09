@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
 
-import { theme } from '../theme/theme';
+import { theme } from '../../theme/theme';
 
 export interface Props {
   /**The content of the component. */

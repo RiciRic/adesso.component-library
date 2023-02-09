@@ -1,9 +1,9 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Typography, Props } from '../src/components/Typography';
+import { Typography, Props } from '../src/components/data-display/Typography';
 
 const meta: Meta = {
-  title: 'Typography',
+  title: 'Data Display/Typography',
   component: Typography,
   argTypes: {
     color: { control: { type: 'color', presetColors: ['red'] } },

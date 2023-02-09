@@ -1,11 +1,11 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { AppBar, Props } from '../src/components/AppBar';
+import { AppBar, Props } from '../src/components/surfaces/AppBar';
 
-import { AdessoLogo } from '../src/components/AdessoLogo';
+import { AdessoLogo } from '../src/components/data-display/AdessoLogo';
 
 const meta: Meta = {
-  title: 'AppBar',
+  title: 'Surfaces/AppBar',
   component: AppBar,
   argTypes: {
     padding: { control: { type: 'range', min: 0, max: 10, step: 1 } },
@@ -24,6 +24,7 @@ export const DefaultHeader = Template.bind({});
 
 DefaultHeader.args = {
   color: 'default',
+  padding:5
 };
 
 const TemplateWhiteLogo: Story<Props> = args => (

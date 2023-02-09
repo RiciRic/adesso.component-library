@@ -1,9 +1,9 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Radio, Props } from '../src/components/Radio';
+import { Radio, Props } from '../src/components/inputs/Radio';
 
 const meta: Meta = {
-  title: 'FormControl/Radio',
+  title: 'Inputs/Radio',
   component: Radio,
 };
 

@@ -1,6 +1,6 @@
 import React, { HTMLAttributes } from 'react';
 
-import { colorPalette } from '../theme/colorPalette';
+import { colorPalette } from '../../theme/colorPalette';
 
 export interface Props extends HTMLAttributes<SVGElement> {
   /**The variant to use. */

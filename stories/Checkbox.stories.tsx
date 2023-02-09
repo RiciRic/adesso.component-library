@@ -1,9 +1,9 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Checkbox, Props } from '../src/components/Checkbox';
+import { Checkbox, Props } from '../src/components/inputs/Checkbox';
 
 const meta: Meta = {
-  title: 'FormControl/Checkbox',
+  title: 'Inputs/Checkbox',
   component: Checkbox,
 };
 

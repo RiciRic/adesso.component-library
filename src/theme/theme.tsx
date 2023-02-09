@@ -69,13 +69,13 @@ export const theme = createTheme({
       ].join(',')
     },
     body1:{
-      color: "#000000DE",
+      color: colorPalette.body1Color,
       fontWeight: 400,
       fontSize: 14,
       lineHeight: "20px"
     },
     body2:{
-      color: "#212529",
+      color: colorPalette.body2Color,
       fontFamily: [
         typography['Inter'],
         typography['serif'],

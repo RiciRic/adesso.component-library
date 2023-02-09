@@ -1,9 +1,9 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Slider, Props } from '../src/components/Slider';
+import { Slider, Props } from '../src/components/inputs/Slider';
 
 const meta: Meta = {
-  title: 'Slider',
+  title: 'Inputs/Slider',
   component: Slider,
 };
 

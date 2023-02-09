@@ -1,9 +1,9 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Switch, Props } from '../src/components/Switch';
+import { Switch, Props } from '../src/components/inputs/Switch';
 
 const meta: Meta = {
-  title: 'FormControl/Switch',
+  title: 'Inputs/Switch',
   component: Switch,
 };
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { Button, Props } from '../src/components/Button';
+import { Button, Props } from '../src/components/inputs/Button';
 
 const meta: Meta = {
-  title: 'Button',
+  title: 'Inputs/Button',
   component: Button,
 };
 

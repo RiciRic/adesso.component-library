@@ -7,6 +7,9 @@ export const colorPalette = {
   buttonGray: '#343a40',
   buttonLightGray: '#6c757d',
 
+  body1Color: "#000000DE",
+  body2Color: "#212529",
+
   //Material Design Palette
   primary: '#006ec7',
   primaryLight: '#5a9bf9',
