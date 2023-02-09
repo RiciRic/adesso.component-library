@@ -6,6 +6,7 @@ export * from './components/inputs/Fab';
 export * from './components/inputs/Slider';
 export * from './components/inputs/TextField';
 export * from './components/inputs/TextArea';
+export * from './components/inputs/Select';
 
 export * from './components/inputs/Checkbox';
 export * from './components/inputs/Radio';
@@ -25,3 +26,4 @@ export * from './components/surfaces/Paper';
 export * from './components/theme/AdessoThemeProvider';
 export * from './theme/colorPalette';
 export * from './theme/theme';
+export * from './theme/typography';
